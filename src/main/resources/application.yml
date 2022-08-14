@@ -16,3 +16,7 @@ mybatis-plus:
       table-underline: false
   configuration:
     map-underscore-to-camel-case: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl   #mybatis-plus配置控制台打印完整带参数SQL语句
+
+
+
